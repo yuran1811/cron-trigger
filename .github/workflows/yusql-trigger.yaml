@@ -14,12 +14,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '>=22'
-      - run: npm ci
+
       - name: wakeup render site
         run: node src/yusql-trigger.js
+
       - name: Update README
         run: |
           git config --global user.email "trieuvanbd123@gmail.com"
