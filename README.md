@@ -1,1 +1,1 @@
-[yusql]: running (last check: 5/22/2025, 8:11:55 AM)
+[yusql]: suspended (last check: 5/22/2025, 8:39:40 AM)
